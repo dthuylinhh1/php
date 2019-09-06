@@ -1,0 +1,35 @@
+/* External CSS to control styling of text */
+
+/* Set styling to body */
+body{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 100%;
+  line-height: 1.4;
+  background-color: gold;
+}
+
+footer{
+  text-align: center;
+  padding: 10px 15px;
+}
+
+/* Rules for anchor elements to control the link states*/
+a:link{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: rosybrown;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: blue;
+  background-color: yellow;
+}
+
+a:active{
+  color: mediumvioletred;
+  text-decoration: underline;
+}
